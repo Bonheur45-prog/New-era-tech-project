@@ -1,0 +1,22 @@
+/* Why Choose Us Section */
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .reason-item {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .reason-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .reason-item h3 {
+    color: #667eea;
+    margin-bottom: 0.5rem;
+  }
