@@ -4,11 +4,20 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+    padding: 2px 13px;
   }
 
   .reason-item {
     text-align: center;
     padding: 1.5rem;
+    background-color: rgb(253, 255, 255);
+    border-radius: 3%;
+  }
+  
+  .reason-item:hover{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgb(240, 245, 245);
   }
 
   .reason-icon {
