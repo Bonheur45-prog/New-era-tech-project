@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from "react-router-dom";
+import video from '../assets/videos/uniqueness.mp4';
 import './OurUniqueness.css';
 
 /**
@@ -161,7 +162,7 @@ export function UniquenessSection() {
                       type="video/webm" 
                     />
                     <source 
-                      src="/videos/uniqueness.mp4" 
+                      src={video} 
                       type="/video/mp4" 
                     />
                   </>

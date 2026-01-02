@@ -1,5 +1,5 @@
 import { Footer } from '../components/Footer';
-
+import bonheurImage from '../assets/images/bonheur.png';
 import "./AboutPage.css";
 
 /**
@@ -14,14 +14,14 @@ export function AboutPage() {
       role: "Co-Founder & Technical Lead",
       bio: "Specialized in systems architecture, networking, and backend development. Proficient in databases and programming across C, C++, Java, JavaScript, and modern frameworks.",
       expertise: ["Systems Architecture", "Backend Development", "Database Design", "Network Engineering"],
-      image: "/images/bonheur.png" // Replace with actual image path
+      image: {bonheurImage} 
     },
     {
       name: "Samuel Niyonsenga",
       role: "Co-Founder & Strategy",
       bio: "Focused on bridging technology with business objectives. Expert in aligning technical solutions with economic and strategic goals.",
       expertise: ["Business Strategy", "Tech Consulting", "Economic Analysis", "Project Management"],
-      image: "/images/samuel.jpg" // Replace with actual image path
+      image: "/images/samuel.jpg"
     }
   ];
 
