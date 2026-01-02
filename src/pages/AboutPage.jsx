@@ -85,7 +85,7 @@ export function AboutPage() {
                 <article key={index} className="founder-card">
                   <div className="founder-image-wrapper">
                     <img
-                      src={`src/${founder.image}`}
+                      src={`${founder.image}`}
                       alt={`${founder.name} - ${founder.role}`}
                       className="founder-image"
                       onError={(e) => {

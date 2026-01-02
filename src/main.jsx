@@ -9,7 +9,7 @@ const basename = import.meta.env.MODE === "production"
                     : "/";
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename={basename}>
+  <BrowserRouter basename={basename} >
     <App />
   </BrowserRouter>,
 )

@@ -162,7 +162,7 @@ export function UniquenessSection() {
                     />
                     <source 
                       src="/videos/uniqueness.mp4" 
-                      type="video/mp4" 
+                      type="/video/mp4" 
                     />
                   </>
                 )}
