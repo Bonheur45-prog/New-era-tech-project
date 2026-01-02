@@ -1,5 +1,4 @@
 import { Footer } from '../components/Footer';
-import image from "../assets/bonheur.png";
 
 import "./AboutPage.css";
 
@@ -9,14 +8,13 @@ import "./AboutPage.css";
  * Location: Rwanda
  */
 export function AboutPage() {
-  console.log(image);
   const founders = [
     {
       name: "Bonheur Nshimiyimana",
       role: "Co-Founder & Technical Lead",
       bio: "Specialized in systems architecture, networking, and backend development. Proficient in databases and programming across C, C++, Java, JavaScript, and modern frameworks.",
       expertise: ["Systems Architecture", "Backend Development", "Database Design", "Network Engineering"],
-      image: "/src/assets/bonheur.png" // Replace with actual image path
+      image: "/images/bonheur.png" // Replace with actual image path
     },
     {
       name: "Samuel Niyonsenga",

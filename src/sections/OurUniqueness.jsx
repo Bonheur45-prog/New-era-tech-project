@@ -116,7 +116,7 @@ export function UniquenessSection() {
 
             {/* Call to Action */}
             <div className="cta-wrapper">
-              <a href="#contact" className="cta-button">
+              <a href="/contact" className="cta-button">
                 <span>Start Your Project</span>
                 <svg 
                   className="cta-arrow" 
@@ -160,7 +160,7 @@ export function UniquenessSection() {
                       type="video/webm" 
                     />
                     <source 
-                      src="/videos/showcase.mp4" 
+                      src="/videos/uniqueness.mp4" 
                       type="video/mp4" 
                     />
                   </>
