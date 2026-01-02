@@ -4,9 +4,9 @@ import './ChooseUs.css';
 export function ChooseUs() {
   const reasons = [
     { icon: <SpeedIcon />, title: "Quality", description: "We deliver top-notch quality in every project" },
-    { icon: "🚀", title: "Speed", description: "Fast turnaround without compromising standards" },
-    { icon: "💡", title: "Innovations", description: "Cutting-edge solutions for modern challenges" },
-    { icon: "🤝", title: "Support", description: "Dedicated support team always ready to help" }
+    { icon: "SA", title: "Speed", description: "Fast turnaround without compromising standards" },
+    { icon: "MU", title: "Innovations", description: "Cutting-edge solutions for modern challenges" },
+    { icon: "EL", title: "Support", description: "Dedicated support team always ready to help" }
   ];
 
   return (

@@ -51,22 +51,22 @@ export function UniquenessSection() {
   // Unique value propositions
   const uniquePoints = [
     {
-      icon: "🎯",
+      icon: "BO",
       title: "Rwanda-Rooted Expertise",
       description: "We understand the local market, regulations, and business culture—giving you solutions that actually work in Rwanda's ecosystem."
     },
     {
-      icon: "⚡",
+      icon: "NH",
       title: "Lean & Agile Team",
       description: "No corporate bloat. Two founders who code, strategize, and scale rapidly when projects demand it. You get senior-level attention, not junior delegation."
     },
     {
-      icon: "🔧",
+      icon: "EU",
       title: "Full-Stack Capability",
       description: "From system architecture to databases, backend to modern frameworks—we handle the entire technology stack without outsourcing critical components."
     },
     {
-      icon: "💼",
+      icon: "RD",
       title: "Business-First Approach",
       description: "Technology serves your business goals, not the other way around. Every solution is measured by ROI, scalability, and long-term value."
     }
