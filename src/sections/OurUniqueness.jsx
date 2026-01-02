@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import './OurUniqueness.css';
 
 /**
@@ -116,7 +117,7 @@ export function UniquenessSection() {
 
             {/* Call to Action */}
             <div className="cta-wrapper">
-              <a href="/contact" className="cta-button">
+              <Link to="/contact" className="cta-button">
                 <span>Start Your Project</span>
                 <svg 
                   className="cta-arrow" 
@@ -131,7 +132,7 @@ export function UniquenessSection() {
                     d="M13 7l5 5m0 0l-5 5m5-5H6"
                   />
                 </svg>
-              </a>
+              </Link>
               <p className="cta-note">Free consultation • No commitment required</p>
             </div>
           </div>
